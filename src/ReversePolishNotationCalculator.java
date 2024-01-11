@@ -1,9 +1,5 @@
-package notation;
-
-import java.util.ArrayDeque;
-import java.util.Deque;
-
-public class ReversePolishNotationCalculator {
+import java.util.*;
+class ReversePolishNotationCalculator {
 
     public int calculatePolishNotation(String str) {
         String[] parts = str.split(" ");
@@ -48,4 +44,4 @@ public class ReversePolishNotationCalculator {
 
         return false;
     }
-}
+} 
